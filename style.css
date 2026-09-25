@@ -1,0 +1,238 @@
+/* =====================================
+   CSS TUGAS 4
+   ===================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #264653;
+    background-color: #f4f7f6;
+}
+
+/* =====================================
+   HEADER
+   ===================================== */
+
+.header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.header-title h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header-title p {
+    margin-top: 8px;
+}
+
+/* =====================================
+   LEFT / MENU
+   ===================================== */
+
+.sidebar {
+    padding: 12px;
+    background-color: #eef6f5;
+    min-height: 100%;
+}
+
+fieldset {
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+legend {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #264653;
+    background-color: #e9c46a;
+    border-radius: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* =====================================
+   LINK
+   ===================================== */
+
+a {
+    color: #2a9d8f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #e76f51;
+    text-decoration: underline;
+}
+
+/* =====================================
+   MAIN CONTENT
+   ===================================== */
+
+.main-content {
+    padding: 25px;
+    background-color: white;
+    min-height: 100%;
+}
+
+.page-title {
+    text-align: center;
+    color: #264653;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #2a9d8f;
+    padding-bottom: 10px;
+}
+
+/* =====================================
+   PROFILE
+   ===================================== */
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2a9d8f;
+    transition: 0.3s;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
+
+/* =====================================
+   TABLE
+   ===================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+th {
+    background-color: #264653;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8f7;
+}
+
+tr:hover {
+    background-color: #e9c46a;
+}
+
+/* =====================================
+   GALLERY
+   ===================================== */
+
+.gallery {
+    text-align: center;
+    padding: 15px;
+}
+
+.gallery img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid #2a9d8f;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.08);
+    opacity: 0.8;
+}
+
+/* =====================================
+   RIGHT SIDEBAR
+   ===================================== */
+
+.right-sidebar {
+    padding: 12px;
+    background-color: #eef6f5;
+    min-height: 100%;
+}
+
+.material-list li {
+    margin-bottom: 15px;
+}
+
+.material-list a {
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.material-list a:hover {
+    background-color: #e9c46a;
+    text-decoration: none;
+}
+
+/* =====================================
+   FOOTER
+   ===================================== */
+
+.footer {
+    height: 100%;
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.footer p {
+    margin: 5px;
+    font-size: 14px;
+}
